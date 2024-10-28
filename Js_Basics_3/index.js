@@ -118,6 +118,32 @@
 // let combined1 = [...a1,'manoj', ...a2, 'Zagade'];
 // console.log(combined1);
 
+// -> Combining and slicing of objects
+
+let obj1 = {
+    color: 'Yellow',
+    height: 5.9,
+    weight: 80,
+
+    lang(){
+        console.log('marathi');
+    }
+}
+
+let obj2 = {
+    rung : 'white',
+    unchi : 6.1,
+    vajan : 85,
+
+    talk(){
+        console.log('fluent');
+    }
+}
+
+let comb = {...obj1, ...obj2};
+console.log(comb);
+console.log(comb.talk());
+// console.log(comb.lang());
 
 // -> Iterating on the Array
 
@@ -186,7 +212,7 @@
 
 // mapping with objects
 
-let numbers = [1, -1, 2, -3];
+// let numbers = [1, -1, 2, -3];
 
 // let items = numbers.filter(val => val > 0);
 
@@ -197,5 +223,5 @@ let numbers = [1, -1, 2, -3];
 // console.log(mapping);
 
 // It can also be written as 
-let items = numbers.filter(val => val >= 0).map(num => ({value : num}));
-console.log(items);
+// let items = numbers.filter(val => val >= 0).map(num => ({value : num}));
+// console.log(items);
