@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <div class="cricle1"></div>
+        <div class="circle2"></div>
+
+        <div class="card">
+
+            <div class="roundImg">
+                <img class="manojImg" src="manoj_img.jpg" alt="">
+            </div>
+
+            <div class="name">
+                Manoj Zagade
+            </div>
+
+            <div class="heading">
+                Learner, Software Engineer
+            </div>
+
+            <div class="buttons">
+                <button class="share-btn" onclick="openmodal()">
+                    <i class="fa-solid fa-share"></i>
+                    <div>Share my profile</div>
+                </button>
+
+                <button class="follow-btn">
+                    Follow Me
+                </button>
+            </div>
+
+        </div>
+
+        <div class="modal">
+            <div class="modalHeading">
+                <span class="heads">Share My Profile</span>
+                <i onclick="cutmodal()" class="fa-solid fa-x"></i>
+                
+            </div>
+
+            <div class="modalSubheading">
+                Share this via
+            </div>
+
+            <div class="icons">
+                <div class="facebookCircle">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+
+                <div class="twitterCircle">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+
+                <div class="instagramCircle"> 
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+                <div class="whatsappCircle">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+
+                <div class="telegramCircle">
+                    <i class="fa-brands fa-telegram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="layer"></div>
+
+    </div>
+
+    
+
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
