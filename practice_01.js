@@ -12,6 +12,7 @@ for(let key of arr1){
     console.log(key);
 }
 
+//-------------------------------------------
 const birthday = '17.08.2004'
 let manojAge = totalAge(birthday);
 
@@ -35,7 +36,7 @@ function totalAge(birthday) {
 
 console.log(manojAge);
 
-
+//----------------------------------------
 let name = 'Manoj'
 
 console.log(`hello ${1}`);
@@ -44,4 +45,30 @@ console.log(`hello ${"name"}`);
 
 console.log(`hello ${name}`);
 
+//------------------------------------
+let valv = "123";
+console.log(typeof valv);
 
+valv = Number(valv);
+console.log(typeof valv);
+
+//--------------------------------
+console.log("6"/"3");
+
+//-----------------------------
+let y = -10;
+y = +y; // + unary operator does not affect numbers
+console.log(y);
+
+let flag = true;
+console.log(+flag);
+console.log(-flag);
+
+// ---------------------------
+const apples = "10";
+const mango = "15"
+
+console.log(+apples + +mango);  // 25
+
+//----------------------------
+//console.log(5++); Increment and decrement operators are applied on variables not values it will give error
