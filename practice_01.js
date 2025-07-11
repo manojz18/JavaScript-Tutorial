@@ -72,3 +72,60 @@ console.log(+apples + +mango);  // 25
 
 //----------------------------
 //console.log(5++); Increment and decrement operators are applied on variables not values it will give error
+
+
+//------------------------------------
+console.log(null == 0);
+console.log(null == undefined);
+console.log(null >= 0);
+console.log('0' == 0);
+console.log(null === undefined);
+console.log('' == false);
+console.log(undefined == 0);
+
+
+//---------------------------------------
+// Grouping multiple switch cases
+
+let values = "Mango"
+
+switch(values){
+    case 'Apple':
+    case 'Banana':
+    case 'Mango':
+        console.log('These are fruits');
+        break;
+
+    case 'carrot':
+    case 'broklli':
+        console.log("These are vegetables");
+        break;
+
+    default:
+        console.log("I dont know what is this")
+}
+    
+// arrow function
+
+// let ask = (question, yes, no) => {
+//     if(confirm(question)) yes();
+//     else no();
+// }
+
+// ask(
+//     "Do you agree?",
+//     function() { alert("You agreed."); },
+//     function() { alert("You canceled the execution."); }
+//   );
+
+
+//---------------
+
+let func = (namez, age) => {
+    return{
+        namez, // name:name
+        age,  // age: age
+    }
+};
+
+console.log(func("Manoj", 20));
