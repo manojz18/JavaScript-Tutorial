@@ -128,4 +128,6 @@ let func = (namez, age) => {
     }
 };
 
-console.log(func("Manoj", 20));
+let res = func("Manoj", 20);
+console.log(res.age)
+console.log(res.namez)
